@@ -1,2 +1,10 @@
-# alfotecrefrigeracao
-Esse site será diferente não será para Discord será para divulgar trabalho de refrigeração geladeira etc. Para impressionar meu pai
+# Alfotec Refrigeração
+
+Site oficial para divulgação da Alfotec Refrigeração.
+
+## Tecnologias
+- HTML5
+- CSS3 (Responsivo)
+
+## Como visualizar
+Abra o arquivo `index.html` em qualquer navegador.
