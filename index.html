@@ -10,20 +10,17 @@
             --secondary: #ffffff; /* Branco */
             --gray: #e0e0e0; /* Cinza */
             --dark: #333333;
-            --text: #333;
         }
-        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; color: var(--text); line-height: 1.6; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; color: var(--dark); line-height: 1.6; }
         header { background: var(--primary); color: var(--secondary); padding: 3rem 1rem; text-align: center; }
-        .hero { padding: 4rem 1rem; text-align: center; background: var(--gray); color: var(--dark); }
+        .hero { padding: 4rem 1rem; text-align: center; background: var(--gray); }
         .container { padding: 2rem; max-width: 900px; margin: auto; }
-        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 2rem; }
-        .gallery img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
-        .service-card { border: 2px solid var(--primary); padding: 1.5rem; margin: 1rem 0; border-radius: 12px; background: #f9f9f9; }
-        .contact-btns { display: flex; gap: 10px; justify-content: center; margin-top: 20px; flex-wrap: wrap; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 2rem; }
+        .gallery img { width: 100%; border-radius: 8px; border: 2px solid var(--primary); }
+        .btn { display: inline-block; padding: 12px 25px; margin: 10px; border-radius: 5px; text-decoration: none; font-weight: bold; }
+        .btn-whats { background: #25d366; color: white; }
+        .btn-face { background: #4267B2; color: white; }
         footer { background: var(--dark); color: white; text-align: center; padding: 2rem; }
-        .btn { display: inline-block; padding: 12px 24px; background: var(--primary); color: white; text-decoration: none; border-radius: 5px; font-weight: bold; }
-        .btn-fb { background: #4267B2; }
-        @media (max-width: 600px) { .container { padding: 1rem; } }
     </style>
 </head>
 <body>
@@ -31,33 +28,21 @@
         <h1>Alfotec Refrigeração</h1>
         <p>Expertise em Geladeiras e Soluções Térmicas</p>
     </header>
-    <section class="hero">
-        <h2>Seu Conforto é nossa Prioridade</h2>
-        <p>Trabalhamos com as melhores marcas. Venda e assistência técnica especializada.</p>
-        
-        <div class="contact-btns">
-            <a href="https://wa.me/SEUNUMERO" class="btn">Falar com Consultor (WhatsApp)</a>
-            <a href="https://facebook.com/SEUPERFIL" class="btn btn-fb">Falar com Consultor (Facebook)</a>
+    
+    <section class="container">
+        <h2>Nossa Galeria</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x200.png?text=Geladeira+1" alt="Geladeira">
+            <img src="https://via.placeholder.com/300x200.png?text=Geladeira+2" alt="Geladeira">
+            <img src="https://via.placeholder.com/300x200.png?text=Geladeira+3" alt="Geladeira">
+        </div>
+
+        <div style="text-align: center;">
+            <a href="https://wa.me/SEUNUMERO" class="btn btn-whats">Falar com Consultor (WhatsApp)</a>
+            <a href="https://facebook.com/SUAPAGINA" class="btn btn-face">Falar com Consultor (Facebook)</a>
         </div>
     </section>
 
-    <div class="container">
-        <h3>Nossas Geladeiras e Serviços</h3>
-        <div class="gallery">
-            <img src="https://via.placeholder.com/400x300?text=Geladeira+Modelo+1" alt="Geladeira 1">
-            <img src="https://via.placeholder.com/400x300?text=Geladeira+Modelo+2" alt="Geladeira 2">
-            <img src="https://via.placeholder.com/400x300?text=Manutenção+Técnica" alt="Manutenção">
-        </div>
-
-        <div class="service-card">
-            <h4>Venda de Equipamentos</h4>
-            <p>Linha completa de geladeiras, freezers e componentes.</p>
-        </div>
-        <div class="service-card">
-            <h4>Assistência Técnica</h4>
-            <p>Manutenção preventiva e corretiva com garantia.</p>
-        </div>
-    </div>
     <footer>
         <p>&copy; 2023 Alfotec Refrigeração - Qualidade que você confia.</p>
     </footer>
