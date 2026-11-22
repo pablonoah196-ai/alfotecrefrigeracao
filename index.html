@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alfotec Refrigeração - Qualidade em Geladeiras e Serviços</title>
+    <style>
+        :root {
+            --primary-blue: #0056b3;
+            --light-blue: #e3f2fd;
+            --white: #ffffff;
+            --gray: #f4f4f4;
+            --text-color: #333;
+        }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; color: var(--text-color); }
+        header { background: var(--primary-blue); color: var(--white); padding: 2rem; text-align: center; }
+        nav { display: flex; justify-content: center; background: var(--light-blue); padding: 1rem; }
+        nav a { margin: 0 15px; text-decoration: none; color: var(--primary-blue); font-weight: bold; }
+        .hero { padding: 4rem 1rem; text-align: center; background: var(--white); }
+        .services { padding: 2rem; background: var(--gray); display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
+        .card { background: var(--white); padding: 1.5rem; border-radius: 8px; width: 300px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        footer { background: var(--primary-blue); color: var(--white); text-align: center; padding: 1rem; }
+        @media (max-width: 600px) { .card { width: 100%; } }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Alfotec Refrigeração</h1>
+        <p>Excelência e confiança em geladeiras e refrigeração</p>
+    </header>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="inicio" class="hero">
+        <h2>Bem-vindo à Alfotec</h2>
+        <p>Sua parceira ideal para consertos e manutenção de geladeiras.</p>
+    </section>
+    <section id="servicos" class="services">
+        <div class="card"><h3>Manutenção</h3><p>Reparos rápidos e eficientes.</p></div>
+        <div class="card"><h3>Instalação</h3><p>Montagem técnica profissional.</p></div>
+        <div class="card"><h3>Consultoria</h3><p>Escolha o melhor equipamento.</p></div>
+    </section>
+    <footer id="contato">
+        <p>Entre em contato conosco hoje mesmo!</p>
+        <p>Telefone: (00) 0000-0000</p>
+    </footer>
+</body>
+</html>
