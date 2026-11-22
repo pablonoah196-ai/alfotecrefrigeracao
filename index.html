@@ -6,63 +6,45 @@
     <title>Alfotec Refrigeração | Qualidade e Confiança</title>
     <style>
         :root {
-            --primary: #0056b3; /* Azul profissional */
+            --primary: #004a99; /* Azul Royal */
             --secondary: #ffffff; /* Branco */
-            --gray: #f8f9fa; /* Cinza claro */
-            --dark-gray: #495057; /* Cinza escuro */
+            --gray: #e0e0e0; /* Cinza */
+            --dark: #333333;
             --text: #333;
         }
-        * { box-sizing: border-box; }
         body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; color: var(--text); line-height: 1.6; }
         header { background: var(--primary); color: var(--secondary); padding: 3rem 1rem; text-align: center; }
-        header h1 { margin: 0; font-size: 2.5rem; }
-        .hero { padding: 4rem 1rem; text-align: center; background: var(--gray); }
+        .hero { padding: 4rem 1rem; text-align: center; background: var(--gray); color: var(--dark); }
         .container { padding: 2rem; max-width: 900px; margin: auto; }
-        .service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
-        .service-card { border: 1px solid #dee2e6; padding: 1.5rem; border-radius: 10px; background: white; transition: transform 0.3s; }
-        .service-card:hover { transform: translateY(-5px); border-color: var(--primary); }
-        .contact { background: var(--dark-gray); color: white; padding: 3rem 1rem; text-align: center; }
-        footer { background: #212529; color: white; text-align: center; padding: 2rem; }
-        @media (max-width: 600px) { header h1 { font-size: 1.8rem; } }
+        .service-card { border: 2px solid var(--primary); padding: 1.5rem; margin: 1rem 0; border-radius: 12px; background: #f9f9f9; }
+        footer { background: var(--dark); color: white; text-align: center; padding: 2rem; }
+        .btn { display: inline-block; padding: 10px 20px; background: var(--primary); color: white; text-decoration: none; border-radius: 5px; margin-top: 1rem; }
+        @media (max-width: 600px) { .container { padding: 1rem; } }
     </style>
 </head>
 <body>
     <header>
         <h1>Alfotec Refrigeração</h1>
-        <p>Especialistas em geladeiras e sistemas de refrigeração.</p>
+        <p>Expertise em Geladeiras e Soluções Térmicas</p>
     </header>
-
     <section class="hero">
-        <h2>Seu conforto é nossa prioridade</h2>
-        <p>Atendimento rápido, técnico qualificado e garantia em todos os serviços.</p>
+        <h2>Seu Conforto é nossa Prioridade</h2>
+        <p>Trabalhamos com as melhores marcas. Venda e assistência técnica especializada.</p>
+        <a href="https://wa.me/SEUNUMERO" class="btn">Solicite um Orçamento</a>
     </section>
-
     <div class="container">
-        <h2 style="text-align: center;">Nossos Serviços</h2>
-        <div class="service-grid">
-            <div class="service-card">
-                <h3>Venda de Geladeiras</h3>
-                <p>Variedade em marcas e modelos com procedência garantida.</p>
-            </div>
-            <div class="service-card">
-                <h3>Manutenção Técnica</h3>
-                <p>Reparo especializado em geladeiras, freezers e expositores.</p>
-            </div>
-            <div class="service-card">
-                <h3>Instalação</h3>
-                <p>Instalação profissional para garantir a durabilidade do seu equipamento.</p>
-            </div>
+        <h3>Nossos Serviços</h3>
+        <div class="service-card">
+            <h4>Venda de Equipamentos</h4>
+            <p>Linha completa de geladeiras, freezers e componentes.</p>
+        </div>
+        <div class="service-card">
+            <h4>Assistência Técnica</h4>
+            <p>Manutenção preventiva e corretiva com garantia.</p>
         </div>
     </div>
-
-    <section class="contact">
-        <h2>Precisa de ajuda? Entre em contato!</h2>
-        <p>Estamos prontos para atender você com total profissionalismo.</p>
-        <p><strong>WhatsApp: (XX) XXXXX-XXXX</strong></p>
-    </section>
-
     <footer>
-        <p>&copy; 2023 Alfotec Refrigeração - Qualidade que gera confiança.</p>
+        <p>&copy; 2023 Alfotec Refrigeração - Qualidade que você confia.</p>
     </footer>
 </body>
 </html>
