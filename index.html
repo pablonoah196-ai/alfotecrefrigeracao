@@ -16,9 +16,14 @@
         header { background: var(--primary); color: var(--secondary); padding: 3rem 1rem; text-align: center; }
         .hero { padding: 4rem 1rem; text-align: center; background: var(--gray); color: var(--dark); }
         .container { padding: 2rem; max-width: 900px; margin: auto; }
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 2rem; }
+        .gallery img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; border: 2px solid var(--primary); }
         .service-card { border: 2px solid var(--primary); padding: 1.5rem; margin: 1rem 0; border-radius: 12px; background: #f9f9f9; }
         footer { background: var(--dark); color: white; text-align: center; padding: 2rem; }
-        .btn { display: inline-block; padding: 10px 20px; background: var(--primary); color: white; text-decoration: none; border-radius: 5px; margin-top: 1rem; }
+        .btn-group { margin-top: 2rem; display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+        .btn { display: inline-block; padding: 12px 25px; color: white; text-decoration: none; border-radius: 5px; font-weight: bold; }
+        .btn-wa { background: #25D366; }
+        .btn-fb { background: #4267B2; }
         @media (max-width: 600px) { .container { padding: 1rem; } }
     </style>
 </head>
@@ -27,12 +32,22 @@
         <h1>Alfotec Refrigeração</h1>
         <p>Expertise em Geladeiras e Soluções Térmicas</p>
     </header>
-    <section class="hero">
-        <h2>Seu Conforto é nossa Prioridade</h2>
-        <p>Trabalhamos com as melhores marcas. Venda e assistência técnica especializada.</p>
-        <a href="https://wa.me/SEUNUMERO" class="btn">Solicite um Orçamento</a>
-    </section>
+    
     <div class="container">
+        <section>
+            <h2>Nossas Geladeiras</h2>
+            <div class="gallery">
+                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=400" alt="Geladeira 1">
+                <img src="https://images.unsplash.com/photo-1571175483880-7a2e88a0b064?auto=format&fit=crop&q=80&w=400" alt="Geladeira 2">
+                <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&q=80&w=400" alt="Geladeira 3">
+            </div>
+        </section>
+
+        <section class="btn-group">
+            <a href="https://wa.me/SEUNUMERO" class="btn btn-wa">Falar com Consultor (WhatsApp)</a>
+            <a href="https://facebook.com/SEUPERFIL" class="btn btn-fb">Falar no Facebook</a>
+        </section>
+
         <h3>Nossos Serviços</h3>
         <div class="service-card">
             <h4>Venda de Equipamentos</h4>
@@ -43,8 +58,9 @@
             <p>Manutenção preventiva e corretiva com garantia.</p>
         </div>
     </div>
+    
     <footer>
         <p>&copy; 2023 Alfotec Refrigeração - Qualidade que você confia.</p>
     </footer>
 </body>
-</html>
+</html>",path:
