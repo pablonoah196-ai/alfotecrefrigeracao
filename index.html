@@ -7,16 +7,16 @@
     <style>
         :root {
             --primary: #0056b3;
-            --secondary: #f4f4f4;
+            --secondary: #ffffff;
+            --accent: #f4f4f4;
             --text: #333;
-            --white: #ffffff;
         }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; color: var(--text); }
-        header { background: var(--primary); color: var(--white); padding: 2rem; text-align: center; }
-        .container { padding: 20px; max-width: 800px; margin: auto; }
-        .hero { text-align: center; padding: 40px 20px; background: var(--secondary); }
-        footer { text-align: center; padding: 20px; background: var(--primary); color: var(--white); margin-top: 20px; }
-        @media (max-width: 600px) { header { padding: 1rem; } }
+        body { font-family: 'Arial', sans-serif; margin: 0; padding: 0; color: var(--text); }
+        header { background: var(--primary); color: var(--secondary); padding: 1rem; text-align: center; }
+        .hero { padding: 2rem; text-align: center; background: var(--accent); }
+        .content { padding: 2rem; max-width: 800px; margin: auto; }
+        footer { background: var(--primary); color: var(--secondary); text-align: center; padding: 1rem; position: fixed; width: 100%; bottom: 0; }
+        @media (max-width: 600px) { .content { padding: 1rem; } }
     </style>
 </head>
 <body>
@@ -25,18 +25,14 @@
     </header>
     <section class="hero">
         <h2>Especialistas em Refrigeração</h2>
-        <p>Venda e manutenção de geladeiras com qualidade e confiança.</p>
+        <p>Qualidade e confiança para o seu lar.</p>
     </section>
-    <div class="container">
+    <div class="content">
         <h3>Nossos Serviços</h3>
-        <ul>
-            <li>Venda de Geladeiras Novas e Semi-novas</li>
-            <li>Manutenção Técnica Especializada</li>
-            <li>Peças de Reposição</li>
-        </ul>
+        <p>Venda, manutenção e assistência técnica de geladeiras e sistemas de refrigeração.</p>
     </div>
     <footer>
-        &copy; 2023 Alfotec Refrigeração - Soluções para sua casa.
+        <p>&copy; 2023 Alfotec Refrigeração - O melhor para o seu conforto.</p>
     </footer>
 </body>
 </html>
