@@ -1,10 +1,9 @@
 # Alfotec Refrigeração
 
-Site oficial para divulgação da Alfotec Refrigeração.
+Site oficial de divulgação da Alfotec Refrigeração.
 
-## Tecnologias
-- HTML5
-- CSS3 (Responsivo)
+## Estrutura
+- `index.html`: Página principal com serviços e contato.
 
-## Como visualizar
-Abra o arquivo `index.html` em qualquer navegador.
+## Como usar
+Edite o link do WhatsApp no arquivo `index.html` para receber os pedidos dos clientes.
