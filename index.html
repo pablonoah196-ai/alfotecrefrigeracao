@@ -3,44 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alfotec Refrigeração - Especialistas em Soluções Térmicas</title>
+    <title>Alfotec Refrigeração | Qualidade e Confiança</title>
     <style>
         :root {
-            --azul-principal: #004a99;
-            --azul-claro: #e0f0ff;
-            --cinza: #f4f4f4;
-            --branco: #ffffff;
-            --texto: #333;
+            --primary: #004a99;
+            --secondary: #ffffff;
+            --gray: #f4f4f4;
+            --text: #333;
         }
-        body { font-family: 'Segoe UI', sans-serif; margin: 0; color: var(--texto); line-height: 1.6; }
-        header { background: var(--azul-principal); color: var(--branco); padding: 2rem; text-align: center; }
-        .hero { background: var(--azul-claro); padding: 3rem 1rem; text-align: center; }
-        .container { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
-        .servicos { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
-        .card { background: var(--cinza); padding: 1.5rem; border-left: 5px solid var(--azul-principal); border-radius: 5px; }
-        footer { background: var(--azul-principal); color: var(--branco); text-align: center; padding: 1.5rem; margin-top: 2rem; }
-        @media (max-width: 600px) { header { padding: 1rem; } }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; color: var(--text); }
+        header { background: var(--primary); color: var(--secondary); padding: 2rem; text-align: center; }
+        .hero { padding: 3rem 1rem; text-align: center; background: var(--gray); }
+        .container { padding: 2rem; max-width: 900px; margin: auto; }
+        .service-card { border: 1px solid #ddd; padding: 1rem; margin: 1rem 0; border-radius: 8px; }
+        footer { background: #333; color: white; text-align: center; padding: 1.5rem; }
+        @media (max-width: 600px) { .container { padding: 1rem; } }
     </style>
 </head>
 <body>
     <header>
         <h1>Alfotec Refrigeração</h1>
-        <p>Expertise que garante o seu conforto.</p>
+        <p>Soluções em Refrigeração para o seu lar e empresa</p>
     </header>
     <section class="hero">
-        <h2>Bem-vindo à Alfotec</h2>
-        <p>Soluções completas em venda e manutenção de refrigeradores.</p>
+        <h2>Seu conforto é nossa prioridade</h2>
+        <p>Expertise em geladeiras, freezers e sistemas comerciais.</p>
     </section>
     <div class="container">
-        <h2>Nossos Serviços</h2>
-        <div class="servicos">
-            <div class="card"><h3>Venda de Geladeiras</h3><p>Modelos modernos com alta eficiência energética.</p></div>
-            <div class="card"><h3>Manutenção Preventiva</h3><p>Evite falhas e economize energia.</p></div>
-            <div class="card"><h3>Assistência Técnica</h3><p>Consertos rápidos e com garantia.</p></div>
+        <h3>Nossos Serviços</h3>
+        <div class="service-card">
+            <h4>Venda de Equipamentos</h4>
+            <p>Linha completa de geladeiras e peças de reposição.</p>
+        </div>
+        <div class="service-card">
+            <h4>Assistência Técnica</h4>
+            <p>Manutenção preventiva e corretiva especializada.</p>
         </div>
     </div>
     <footer>
-        <p>Contato: (00) 0000-0000 | Alfotec Refrigeração &copy; 2024</p>
+        <p>&copy; 2023 Alfotec Refrigeração - Excelência e Dedicação.</p>
     </footer>
 </body>
 </html>
